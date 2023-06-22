@@ -13,8 +13,17 @@
     <div id="root"></div>
     <script type="text/babel">
         function App() {
+            const name = "sahadeb";
+            let arr =[1,2,3,4,5];
+            let obj ={
+                name: "sahadeb",
+                mobile:"00000"
+            }
             return (
-                <h1>Hello</h1>
+                <>
+                <h1>Hello, {name}</h1>
+                <p>My name is {obj.name} and my fav numbet is {arr[1]}</p>
+                </>
             )
 
         }
